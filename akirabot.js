@@ -61,21 +61,21 @@ const namabot = 'Akira Bot'
 //kontak
 const vcard = 'BEGIN:VCARD\n'  //Jangan diganti,Ntar error
             + 'VERSION:3.0\n'  //Jangan diganti,Ntar error
-            + 'FN:Akira\n'  // Ganti jadi namamu
-            + 'ORG:Pengembang ${namabot};\n'  // Ganti jadi namamu/Botmu
-            + 'TEL;type=CELL;type=VOICE;waid=6282158549899:+6282158549899\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
+            + 'FN:ArulGanz\n'  // Ganti jadi namamu
+            + 'ORG:Pengembang ${namabot};ArulBotz\n'  // Ganti jadi namamu/Botmu
+            + 'TEL;type=CELL;type=VOICE;waid=6285869134434:+6285869134434\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
             + 'END:VCARD' // Jangan diganti,Ntar Error
             
 //settings            
 prefix = '#'
 blocked = []   
 limitawal = '500' //Terserah Mo Ganti apa kgk
-memberlimit = 1 //Terserah Mo Ganti apa kgk
-cr = '*Akira Bot By Akira*'
-vr = '*Akira Bot Wa*\n*Subscribe My Channel Akira*'
+memberlimit = 10 //Terserah Mo Ganti apa kgk
+cr = '*ArulBotz By ArulGanz*'
+vr = '*ArulBotz Wa*\n*Subscribe My Channel ArulGanz*'
 
 //owner number
-const ownerNumber = ["6282158549899@s.whatsapp.net"]  //Ganti Jadi Nomormu
+const ownerNumber = ["6285869134434@s.whatsapp.net"]  //Ganti Jadi Nomormu
 
 //file json
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
